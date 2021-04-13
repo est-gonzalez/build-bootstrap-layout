@@ -11,7 +11,66 @@
     <title>Bootstrap Layout E01</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header>
+      <div class="container">
+        <nav class="navbar mb-5">
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a class="nav-link active" href="#">Docs</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Examples</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Icons</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Themes</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="bg-dark rounded">
+      <div class="container py-2">
+        <h2 class="text-white text-uppercase">Header Banner Area</h2>
+        <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla officia, nesciunt quaerat minima laborum similique numquam, voluptates ratione optio fuga quam omnis! Laborum quod suscipit maiores asperiores fugiat nam ut?</p>
+      </div>
+    </section>
+
+    <section class="mt-5">
+      <div class="container ">
+        <!-- To do: add the grid system here for the col 1 - form, col 2 - heading and text, col 3 - heading and text -->
+
+        <!-- create a form - this will have to be moved into the grid system -->
+        <div class="row">
+          <form class="bg-primary p-3 mb-3 mx-3 col-xl">
+            <h2 class="text-white">Sign In</h2>
+            <div class="form-group pb-2">
+              <label class="text-white" for="email">Your Email Address</label>
+              <input class="form-control" type="email" id="email">
+            </div>
+            <div class="form-group pb-2">
+              <label class="text-white" for="password" type="password">Password</label>
+              <input class="form-control" type="password" id="password">
+            </div>
+            <div class="form-group pb-2">
+              <input class="form-check-input" type="checkbox" id="pw-save" name="saved-pw">
+              <label class="text-white" for="pw-save">Save Password</label>
+            </div>
+            <button class="btn btn-light" type="submit">
+              Log In
+            </button>
+          </form>
+  
+          <div class="px-3 mb-3 col-md-6 col-xl-3">
+            <h2>Heading</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur veritatis officia odio omnis eaque suscipit, modi quidem sit. Nesciunt, porro deserunt atque illo consequatur veritatis aliquam accusantium quia enim est!</p>
+            <a class="btn btn-primary" href="#">View More</a>
+          </div>
+  
+          <div class="px-3 mb-3 col-md-6 col-xl-3">
+            <h2>Heading</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quasi nesciunt est sit quos ducimus, quae maxime ea fuga quidem amet quia, animi incidunt. Non totam quisquam ea expedita corrupti?</p>
+            <a class="btn btn-primary" href="#">View More</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
